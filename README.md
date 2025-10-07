@@ -11,8 +11,8 @@ ponto da matéria ainda não tinha sido abordado o tratamento de erros, então h
 ## Desenvolvimento
 Desenvolvi essa atividade utilizando como base o pdf da mesma que está disponibilizado aqui nesse repositório. Com base nele, comecei
 criando a interface 'Fretavel', depois, parti para a classe 'Entregador' que seria a classe base para as classes 'Autonomo' e
-'Funcionario'. Após modelar essas 3 classes, parti para a modelagem das classes carro e moto, as quais são os métodos de transporte
+'Funcionario'. Após modelar essas 3 classes, parti para a modelagem das classes 'Carro' e 'Moto', as quais são os métodos de transporte
 que o sistema adota para o controle das entregas. Agora chega na parte difícil, a classe 'ServicoDeEntrega', confesso que me enrolei
 com o polimorfismo nessa classe, não sabia que a interface virava uma instância também e poderia ter objetos do tipo 'Fretavel', com
-isso bati um pouco de cabeça no desenvolvimento dessa classe, mas depois que apredi que poderia, tudo se desenrrolou e deu certo.
+isso bati um pouco de cabeça no desenvolvimento dessa classe, mas depois que aprendi que poderia, tudo se desenrolou e deu certo.
 No main, fiz apenas os casos de teste que a atividade pedia e pronto, atividade feita.
